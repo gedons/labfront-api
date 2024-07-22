@@ -10,9 +10,8 @@ const recordRoutes = require('./routes/recordRoutes');
 
 dotenv.config();
 
-const corsOptions = {
-    //origin: 'https://cartrk.vercel.app', 
-    origin: 'http://localhost:5173', 
+const corsOptions = {    
+    origin: 'https://labfront-six.vercel.app', 
     credentials: true,
   };
   
